@@ -1,0 +1,72 @@
+.circleText {
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    position: fixed;
+    color: #000000;
+    width: 20%;
+    top: 50%;
+    left: 50%;
+    -webkit-animation: fade 8s infinite ease-in-out;
+    animation: fade 8s infinite ease-in-out;
+}
+
+.circleBorder {
+    border: 3px solid black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 50px #000000;
+    border-radius: 50%;
+}
+
+@-webkit-keyframes fade {
+    0% {
+        color: #000000;
+    }
+    25% {
+        color: #D0D0D0;
+    }
+    50% {
+        color: #989898;
+    }
+    75% {
+        color: #D0D0D0;
+    }
+    100% {
+        color: #000000;
+    }
+}
+
+@keyframes fade {
+    0% {
+        color: #000000;
+    }
+    25% {
+        color: #D0D0D0;
+    }
+    50% {
+        color: #989898;
+    }
+    75% {
+        color: #D0D0D0;
+    }
+    100% {
+        color: #000000;
+    }
+}
+
+.link:hover {
+    cursor: hand;
+    cursor: pointer;
+}
+
+#footer {
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    position: fixed;
+    color: #989898;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+}

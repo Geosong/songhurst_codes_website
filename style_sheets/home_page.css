@@ -1,0 +1,26 @@
+#Projects {
+    transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in;
+}
+
+#Projects:hover {
+    box-shadow: 0px 0px 50px #73C38F;
+    background-color: #73C38F;
+}
+
+#About {
+    transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in;
+}
+
+#About:hover {
+    box-shadow: 0px 0px 50px #8B6BC1;
+    background-color: #8B6BC1;
+}
+
+#Contact {
+    transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in;
+}
+
+#Contact:hover {
+    box-shadow: 0px 0px 50px #73AFC2;
+    background-color: #73AFC2;
+}
